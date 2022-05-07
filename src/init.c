@@ -44,7 +44,7 @@ void initGame(void)
 	initSounds();
 
 	// Musique de fond
-	loadMusic("music/intro.mp3");
+    // loadMusic("music/intro.mp3");
 
 	playMusic(1);
 }

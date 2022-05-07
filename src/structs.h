@@ -1,13 +1,14 @@
 typedef struct Texture Texture;
 typedef struct Entity Entity;
 typedef struct Spawner Spawner;
+typedef struct Scoreboard Scoreboard;
 
-typedef struct
+struct Scoreboard
 {
 	int score;
 	int level;
 	char playerName[MAX_NAME_LENGTH];
-} Scoreboard;
+};
 
 typedef struct
 {
